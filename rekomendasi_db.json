@@ -1,0 +1,11 @@
+{
+    "users": [
+        {
+            "user_id": "ID-101",
+            "nama": "Lia",
+            "umur": 20,
+            "asal_kota": "Solo"
+        }
+    ],
+    "posts": []
+}
