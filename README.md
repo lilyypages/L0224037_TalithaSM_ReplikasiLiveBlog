@@ -9,6 +9,7 @@ User bisa:
 
 * Register untuk mendapatkan **Access ID**
 * Membagikan rekomendasi (Kuliner, Hotel, Wisata, Kegiatan)
+* Mengedit & menghapus rekomendasi (**FULL CRUD**)
 * Melihat feed rekomendasi dari user lain
 
 ---
@@ -54,7 +55,7 @@ cd D:\Praktikum-IPBD\liveblog_replika-fastapi
 Jalankan server:
 
 ```bash
-uvicorn app:app --reload
+uvicorn main:app --reload
 ```
 
 Jika berhasil:
@@ -76,7 +77,7 @@ http://127.0.0.1:8000/docs
 Buka terminal baru (jangan matikan backend), lalu jalankan:
 
 ```bash
-streamlit run main.py
+streamlit run app.py
 ```
 
 Akan terbuka di browser:
@@ -113,7 +114,7 @@ http://localhost:8501
 Pastikan backend sudah berjalan:
 
 ```bash
-uvicorn app:app --reload
+uvicorn main:app --reload
 ```
 
 Base URL:
