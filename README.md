@@ -18,8 +18,8 @@ User bisa:
 ```
 liveblog_replika-fastapi/
 │
-├── main.py                # Frontend Streamlit
-├── app.py                 # Backend FastAPI
+├── main.py                # Backend FastAPI
+├── app.py                 # Frontend Streamlit
 ├── rekomendasi_db.json    # Database sederhana (JSON)
 └── __pycache__/           # Cache Python (abaikan)
 ```
